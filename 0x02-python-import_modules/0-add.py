@@ -4,5 +4,5 @@ from add_0 import add
 a = 1
 b = 2
 
-Answer = add(a, b)
-print(f"{a} + {b} = {Answer}")
+result = add(a, b)
+print(f"{a} + {b} = {result}")
