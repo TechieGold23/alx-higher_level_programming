@@ -12,7 +12,7 @@ if __name__ == "__main__":
     subtract = sub(a, b)
     divide = div(a, b)
 
-    print(f"{a} + {b} = {addition}")
-    print(f"{a} - {b} = {subtract}")
-    print(f"{a} * {b} = {multiply}")
-    print(f"{a} / {b} = {divide}")
+    print("{} + {} = {}".format(a, b, addition))
+    print("{} - {} = {}".format(a, b, subtract))
+    print("{} * {} = {}".format(a, b, multiply))
+    print("{} / {} = {}".format(a, b, divide))
