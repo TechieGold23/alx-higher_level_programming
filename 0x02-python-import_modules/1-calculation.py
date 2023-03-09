@@ -13,4 +13,3 @@ print(f"{a} + {b} = {addition}")
 print(f"{a} - {b} = {subtract}")
 print(f"{a} * {b} = {multiply}")
 print(f"{a} / {b} = {divide}")
-
