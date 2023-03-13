@@ -10,4 +10,4 @@ if argc == 0:
 else:
     print(argc, "arguments" + ("s" if argc > 1 else "") + ":")
     for i in range(1, argc + 1):
-	    print(i, ":", sys.argv[i])
+        print(i, ":", sys.argv[i])
