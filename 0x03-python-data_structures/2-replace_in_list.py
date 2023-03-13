@@ -17,7 +17,6 @@
 def replace_in_list(my_list, idx, element):
 
     lst = my_list
-    my_list[idx] = element
 
     if idx < 0:
         return lst
@@ -26,4 +25,6 @@ def replace_in_list(my_list, idx, element):
         return lst
 
     else:
+        my_list[idx] = element
         return my_list
+
